@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/carroussel.css">
+    <link rel="stylesheet" href="src/style/style-1.css">
+    <link rel="icon" type="image/png" href="https://i.pinimg.com/originals/a2/45/7c/a2457c242c6b6e8b76f7af51f3eacaa6.png" />
+    <script src="src/js/script-1.js"></script>
+    <title>Quidditch Time</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="src/img/logo.png" id="logo" onclick="window.location.replace('accueil.html')">
+            <nav><ul>
+            <li class="active"><a href="harry.html">Closer</a></li>
+            <li><a href="drago.html">Drago</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="poufsouffle.html">Poufsouffle</a></li>
+        </ul></nav>
+        </div>
+    </header>
+    <div class="container-2">
+        <div class="img">
+            <div class="slider">
+                <a href="#slide-1">1</a>
+                <a href="#slide-2">2</a>
+                <a href="#slide-3">3</a>
+                <a href="#slide-4">4</a>
+
+                <div class="slides">
+                    <div id="slide-1">
+                    <img src="src/img/closer.jpg" onclick="window.location.replace('harry.html')" class="carroussel">
+                    </div>
+                    <div id="slide-2">
+                    <img src="src/img/jpg_leviathans-2.png" onclick="window.location.replace('drago.html')" class="carroussel">
+                    </div>
+                    <div id="slide-3">
+                    <img src="src/img/equipegpto.jpg" onclick="window.location.replace('equipe.html')" class="carroussel">
+                    </div>
+                    <div id="slide-4">
+                    <img src="src/img/image1.PNG" onclick="window.location.replace('poufsouffle.html')" class="carroussel">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

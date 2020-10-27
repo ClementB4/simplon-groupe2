@@ -1,0 +1,1 @@
+document.getElementById("img1").onclick(window.location.replace("harry.html"))
