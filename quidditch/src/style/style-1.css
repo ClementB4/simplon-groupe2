@@ -8,11 +8,15 @@ body{
     border: 1px solid;
     margin: 30px 282px;
     padding: 10px;
-    background-color: #FFD700;
+    background-image: url(../img/or.jpg);
 }
 
 .img{
     text-align: center;
+}
+
+h2{
+  text-align: center;
 }
 
 
@@ -47,7 +51,7 @@ $menu-active-color : #fff;
   width: 100%;
   height: 80px;
   text-align: center;
-  background-color: #F7605C;
+  background-image: url(../img/rouge.jpg);
   position: fixed;
   z-index: 1;
   top: 0;
