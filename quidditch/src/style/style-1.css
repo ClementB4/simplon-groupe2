@@ -21,11 +21,14 @@ body{
     margin: 30px 282px;
     padding: 10px;
     background-image: url(../img/or.jpg);
+    max-height: 850px;
+    font-size: 22px;
 }
 
 
 h2{
   text-align: center;
+  font-size: 40px;
 }
 
 
@@ -85,6 +88,7 @@ nav ul {
   height: 100%;
   vertical-align: middle;
   display: table-cell;
+  font-size: larger;
 }
 
 li {
