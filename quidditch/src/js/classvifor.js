@@ -41,7 +41,7 @@ class ClassVifor{
                 // Clement, voila le résultat du lien, remplace
                 // pathdufichierhtml/www.google.fr     
                 //donc met le nom de ton fichier html tu sera le boss 
-                setTimeout(window.location.replace("file:///C:/Users/brune/OneDrive/Documents/alternance/semaine2/quidditch/harry.html#"),5000)
+                setTimeout(window.location.replace("harry.html"),5000)
         }
         context.fill();
     }
