@@ -1,75 +1,131 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
 <head>
-  <img src=https://www.fftir.org/logo-fftir.png alt="Logo FFTir" />
-  <title>La première page du sénior</title>
-  <style type="text/css">
-  body {
-    padding-left: 17em;
-    font-family: Georgia, "Times New Roman",
-          Times, serif;
-    color: purple;
-    background-color: #d8da3d }
-  ul.navbar {
-    position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 29em }
-  h1 {
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
-  address {
-    margin-top: 1em;
-    padding-top: 1em;
-    border-top: thin dotted }
-  </style>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="bootstrap.min.css"/>
+    <link href="navbar-top.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css"/>
+	<img src="https://www.fftir.org/logo-fftir.png" width="80%" alt="Logo FFTir"  />
+	<title>La page de Vincent & Clément</title>
 </head>
 
 <body>
 
 <!-- Menu de navigation du site -->
-<ul class="navbar">
-  <li><a href="https://www.fftir.org/">Site fédéral</a>
-  <li><a href="https://www.fftir.org/informations-coronavirus-n-2/">Infos COVID :(</a>
-  <li><a href="http://www.cdtir88.fr/index.php/docman/palmares-resultats/saison-2020-2021">Résultats saison Vosges</a>
-  <li><a href="https://www.fftir.org/wp-content/uploads/2020/10/PDT-CDF-10-m-2021-V0.pdf">Plan de tir France 2021 - pdf</a>
-</ul>
+<!-- version d'origine
+
+	<ul class="navbar">
+		<li><a href="https://www.fftir.org/" target="_blank">Site fédéral</a>
+		<li><a href="https://www.fftir.org/informations-coronavirus-n-2/" target="_blank">Infos COVID :(</a>
+		<li><a href="http://www.cdtir88.fr/index.php/docman/palmares-resultats/saison-2020-2021">Résultats saison Vosges</a>
+		<li><a href="https://www.fftir.org/wp-content/uploads/2020/10/PDT-CDF-10-m-2021-V0.pdf">Plan de tir France 2021 - pdf</a>
+		<li><a href="#fin">Fin de la page</a>
+	</ul>
+-->
+
+<!-- barre de navigation... -->
+<span class="container">
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+		<a class="navbar-brand" href="https://www.fftir.org/" target="_blank">Site fédéral</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="https://www.fftir.org/informations-coronavirus-n-2/" target="_blank">Infos COVID <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="http://www.cdtir88.fr/index.php/docman/palmares-resultats/saison-2020-2021">Résultats Vosges <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="https://www.fftir.org/wp-content/uploads/2020/10/PDT-CDF-10-m-2021-V0.pdf">Plan de tir France 2021 <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="https://www.lachainemeteo.com/meteo-france/departement-89/previsions-meteo-vosges-aujourdhui">Météo Vosges<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#fin" tabindex="-1" aria-disabled="true">Pied de page</a>
+					<!--<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+				</li>
+			</ul>
+<!--    <form class="form-inline mt-2 mt-md-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+		</div>
+	</nav>
+</span>
 
 <!-- Contenu principal -->
-<h1>
-<head>
 
-  <title>Ma première page avec des liens...</title>
-  <style type="text/css">
-  body {
-    font-family: Georgia, "Times New Roman",
-          Times, serif;
-    color: green;
-    background-color: #AABBCC }
-  h1 {
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
-  </style>
-</head>
-
-</h1>
+		<head>
+		<div class="row mb-3">
+			<div class="col-4 themed-grid-col" style="color:blue; font-size:30px">Ma première</div>
+			<div class="col-4 themed-grid-col" style="color:red; font-size:15px">page avec</div>
+			<div class="col-4 themed-grid-col" style="color:yellow; font-size:35px">des liens...</div>
+		</div>
+		</head>
 
 <h2>
-<p>Bienvenue sur ma page avec du style! 
+	<p>Bienvenue sur ma page <mark>avec du style !</mark> 
 </h2>
 
 <h3>
-<p>Il y a une grande image, des liens qui fonctionnent, une image issue d'un autre site...
-&hellip;
+	<p style="color:blue">Il y a des liens qui fonctionnent, des couleurs moches, une image issue d'un autre site
+	&hellip;
 </h3>
+<p>Je devrais étayer, mais je ne sais <br/> ni comment ni avec quoi !!
+
+<!-- Contenu en liste non ordonnée -->
+<p>Allez, une p'tite liste des boissons autorisées :
+<ul>
+  <li style="color:black">Café</li>
+  <li style="color:yellow">Thé</li>
+  <li style="color:red">Soda</li>
+</ul>
+
+<!-- Contenu en liste ordonnée -->
+<p class="classe1">Catégories d'âges :
+<ol id="id1">
+  <li>Poussin ->10 ans
+	<ul>
+		<li>Fille</li>
+		<li>Garçon</li>
+	</ul>
+  </li>
+  <li>Benjamin -> 12 ans</li>
+  <li>Minimes  -> 14 piges </li>
+  <li>Cadet    -> 17 ans</li>
+  <li> <span class="biage">Junior </span> : 18-21 ans </li>
+  <li>Senior / Dames</li>
+</ol>
+
+<!-- Lien avec texte préalable -->
+<p>Lien vers <a href="https://www.lachainemeteo.com/meteo-france/departement-89/previsions-meteo-vosges-aujourdhui" target="_blank">Ma chaine météo</a></p>
 
 
-<p>Je devrais étayer, mais je ne sais comment ni avce quoi !!
+<!-- Contenu en liste de définitions -->
+<dl>
+	<dt>HTML</dt>
+	<dd>HTML est un langage de description de page</dd>
+</dl>
 
+<p>
+  Le début de mon paragraphe <strong> du texte important</strong> 
+</p>
+
+<p>
+    un deuxième paragraphe et l'élément strong a été bouclé juste avant
+</p>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2661.601398458797!2d6.462146615874022!3d48.1564893792249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4793a0c21a1fa37f%3A0x71b02437be3a969f!2zU29jacOpdMOpIGRlIHRpciBkJ8OJcGluYWw!5e0!3m2!1sfr!2sfr!4v1603877244021!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 <!-- Signer et dater la page, c'est une question de politesse! -->
-<address>Fait le 26.10.2020<br>
-  par moi même...</address>
+<address id="fin">Fait le 26.10.2020<br>
+  par hasard...</address>
 
 </body>
 </html>
